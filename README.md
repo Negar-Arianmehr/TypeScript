@@ -15,3 +15,5 @@ When we type tsc -w in the terminal, that the w stand for watch.
 
 In this part we have model.ts and in dist we have model.js. When we write some part of code in model.ts and save it we can see the output the TypeScript transpiler in the model.js file. 
 
+With typeScript we can assign the variable to type of them. Once the type has been spesified, the display name variable will always be a that kind type. There are seven primitive types built into JavaScript(String, Boolean, Number, Biglnt, Null, Undefined, Symbol...Object). 
+
