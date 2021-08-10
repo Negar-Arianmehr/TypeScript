@@ -19,10 +19,14 @@ With typeScript we can assign the variable to type of them. Once the type has be
 
 TypeScript contain two features that allow you to dramatically reduce the code that you have to write in order to take advantage of strong typing and they are called type inference and gradual typing.
 Type inference simply means that TypeScript is really smart, and is able to figure out the type of many variables wothout you having to provide any information at all.
+
 TypeScript is a superset of JS, and JS is a dynamice language which means that in JS it is entirely possible to do things like assigning a variable to a number value and reassigning it to the string value. This is where gradual typing comes into play. in other words, type inference allows TypeScript to find errors in your code at compile time by automatically discovering type info like this.
 We have any for type of variable that is essentially entirely opting out of type safety and TypeScript's ability to help you. But it has to be last choice(It is not a good thing).
 The more information you can give TypeScript, the better it can help you.
+
 Interfaces:
 For define the Interface, we have to use interface keyword, after that a name that we want. But intersting part of interface is that interface definitions have no impact on the code that's rendered. These interfaces to remember TypeScript for later and then completely removes them from the code. Interfaces only exist to give TypeScript more information about the code that you're writing and can help you find more mistakes.
 We can also use the syntax to define methods as well. There is actually two ways to do that.
-In interface we define a method named everything that accept a parameter with specific type. We can also make property optional...For example I want to be able to omit that property entirely like originalNumber?: ...it means that we always have not originalnumber
+In interface we define a method named everything that accept a parameter with specific type. We can also make property optional...For example I want to be able to omit that property entirely like originalNumber?: ...it means that we always have not originalnumber.
+Another thing that we can difine on an interface is a readonly property. If you want to change this value, you will get error if it is not the type of readonly that you defined.
+
