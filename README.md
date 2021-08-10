@@ -1,5 +1,5 @@
 # TypeScript
-Adding info during learning TypeScript with Linkedin Course
+Adding info during learning TypeScript with Linkedin Course https://www.linkedin.com/learning/learning-typescript-2/understanding-type-inference-and-gradual-typing
 
 First steps for coding with TypeScript:
 1. We need typeScript Compiler we can find that at typescriptlang.org
@@ -15,5 +15,12 @@ When we type tsc -w in the terminal, that the w stand for watch.
 
 In this part we have model.ts and in dist we have model.js. When we write some part of code in model.ts and save it we can see the output the TypeScript transpiler in the model.js file. 
 
-With typeScript we can assign the variable to type of them. Once the type has been spesified, the display name variable will always be a that kind type. There are seven primitive types built into JavaScript(String, Boolean, Number, Biglnt, Null, Undefined, Symbol...Object). 
+With typeScript we can assign the variable to type of them. Once the type has been spesified, the display name variable will always be a that kind type. There are seven primitive types built into JavaScript(String, Boolean, Number, Biglnt, Null, Undefined, Symbol...Object). We also can define the structure of object in opening and closing cury bracket.
 
+TypeScript contain two features that allow you to dramatically reduce the code that you have to write in order to take advantage of strong typing and they are called type inference and gradual typing.
+Type inference simply means that TypeScript is really smart, and is able to figure out the type of many variables wothout you having to provide any information at all.
+TypeScript is a superset of JS, and JS is a dynamice language which means that in JS it is entirely possible to do things like assigning a variable to a number value and reassigning it to the string value. This is where gradual typing comes into play. in other words, type inference allows TypeScript to find errors in your code at compile time by automatically discovering type info like this.
+We have any for type of variable that is essentially entirely opting out of type safety and TypeScript's ability to help you. But it has to be last choice(It is not a good thing).
+The more information you can give TypeScript, the better it can help you.
+
+For define the Interface, we have to use interface keyword, after that a name that we want.
