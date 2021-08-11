@@ -43,6 +43,6 @@ TypeScript privides us with the ability to hide, or incapsulate some or all of o
 private: only visible to members within the same class
 protected: Visible to members within the same class and derived classes
 public(default) : Visible to all consumers
-Generics: 
+Generics: <>
 
 
