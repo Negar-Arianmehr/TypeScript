@@ -29,4 +29,20 @@ For define the Interface, we have to use interface keyword, after that a name th
 We can also use the syntax to define methods as well. There is actually two ways to do that.
 In interface we define a method named everything that accept a parameter with specific type. We can also make property optional...For example I want to be able to omit that property entirely like originalNumber?: ...it means that we always have not originalnumber.
 Another thing that we can difine on an interface is a readonly property. If you want to change this value, you will get error if it is not the type of readonly that you defined.
+enum:
+This is stongly typed object that the defines a set of named values. enum actually produce code that can be evaluated at runtime. As defult TypeScript define a value of enum valuess to numbers, incrementing up from zero.
+Literal types:
+With it you can define the list of possible values, separated by the pipe character as inline character.
+Union Type ... | :
+like number | string...This syntax tells TypeScript that the original cost variable can be either a number or a string at any given time.
+If we want to save this combination of types to reuse somewhere else in my application, I can do that with the type keyword like this.  
+Classes:
+We need to define the properties. We can also use interface. Static keyword is for define the class.
+Access Modifiers in TypeScript:
+TypeScript privides us with the ability to hide, or incapsulate some or all of our class members, by using something called Access Modifiers. These Modifiers are (keywords):
+private: only visible to members within the same class
+protected: Visible to members within the same class and derived classes
+public(default) : Visible to all consumers
+Generics: 
+
 
